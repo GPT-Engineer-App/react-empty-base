@@ -1,0 +1,11 @@
+[run]
+build = "npm run build"
+test = "npm run test"
+lint = "npm run lint"
+
+[paths]
+dist = "./build"
+src = "./src"
+
+[gptengineer-app]  # this namespace is used for gptengineer.app, we can use this for internal experiments
+project_id = "0ae0f695-9fe5-4b2d-8c53-365a90bb5cdb"
